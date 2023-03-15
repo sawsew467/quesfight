@@ -1,0 +1,14 @@
+@import './variable';
+.bg-primary {
+    background-color: $primary-color;
+}
+.text-primary {
+    color: $primary-color;
+}
+
+.bg-secondary {
+    background-color: $secondary-color;
+}
+.text-secondary {
+    color: $secondary-color;
+}

@@ -1,8 +1,8 @@
 import React from 'react'
-
+import './style.scss';
 function index() {
   return (
-    <div>index</div>
+    <div>nav</div>
   )
 }
 

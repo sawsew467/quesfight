@@ -1,0 +1,35 @@
+@import './mixin';
+
+.uppercase {
+    text-transform: uppercase !important;
+}
+
+.lowercase {
+    text-transform: lowercase !important;
+}
+
+.capitalize {
+    text-transform: capitalize !important;
+}
+
+.normal-case {
+    text-transform: none !important;
+}
+
+@include for-md {
+    .md\:uppercase {
+        text-transform: uppercase !important;
+    }
+
+    .md\:lowercase {
+        text-transform: lowercase !important;
+    }
+
+    .md\:capitalize {
+        text-transform: capitalize !important;
+    }
+
+    .md\:normal-case {
+        text-transform: none !important;
+    }
+}
